@@ -1,0 +1,29 @@
+.container {
+    background-color: black;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  /* border: 1px solid red; */
+  padding: 10px;
+  row-gap: 30px;
+}
+
+.card {
+  background-color: rgb(240, 247, 246);
+  color: black;
+  border-radius: 10px;
+  padding: 40px;
+  width: 250px;
+  height: 270px;
+  box-shadow:  20px 20px 50px 20px pink;
+}
+
+.container :hover{
+    transform: scale(1.1);
+  
+  }
+  .card :hover{
+    transform: scale(1);
+  
+  }
+    
